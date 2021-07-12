@@ -1,0 +1,41 @@
+.backg {
+    background-color: #e1c1c6;
+}
+
+
+/* logo font */
+
+#navlogo {
+    font-family: 'Otomanopee One', sans-serif;
+    text-decoration: none;
+}
+
+.item1 {
+    display: flex
+}
+
+.item2 {
+    display: flex
+}
+
+.item3 {
+    display: flex
+}
+
+
+/* to make dropdown hoverable */
+
+.drop a {
+    text-decoration: none;
+    display: block;
+}
+
+.ddown:hover .drop {
+    display: block;
+}
+
+.appu {
+    /* z-index: 1; */
+    background-image: url('../image/bg.jpg') no-repeat center center/cover;
+    /* background-size: 400px 400px; */
+}
