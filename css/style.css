@@ -1,5 +1,5 @@
 .backg {
-    background-color: #e1c1c6;
+    background-color: #ff7e19;
 }
 
 
@@ -34,8 +34,116 @@
     display: block;
 }
 
-.appu {
-    /* z-index: 1; */
-    background-image: url('../image/bg.jpg') no-repeat center center/cover;
-    /* background-size: 400px 400px; */
+.section1>h1 {
+    z-index: 1;
+    text-align: center;
+    padding-top: 3px;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    font-size: 60px;
+}
+
+.section1 {
+    color: white;
+}
+
+.section1 img.first {
+    position: absolute;
+    z-index: -1;
+    /* opacity: 0.8; */
+    filter: brightness(70%);
+}
+
+.section1 img.second {
+    position: absolute;
+    z-index: -2;
+    /* opacity: 0.8; */
+    filter: brightness(70%);
+}
+
+.item2>li>a>p,
+.item1>li>a>p {
+    text-align: center;
+}
+
+.section1>p {
+    text-align: center;
+    padding: 10px 157px;
+    font-size: 20px;
+}
+
+.section1>h4 {
+    text-align: center;
+    padding-top: 145px;
+    /* text-decoration: underline overline; */
+    font-style: italic;
+}
+
+.section1>h4:after {
+    content: "";
+    display: block;
+    width: 67px;
+    height: 2px;
+    background: white;
+    right: 579px;
+    top: 30%;
+    position: absolute;
+}
+
+.section1>h4:before {
+    content: "";
+    display: block;
+    width: 67px;
+    height: 2px;
+    background: white;
+    left: 579px;
+    top: 30%;
+    position: absolute;
+}
+
+
+/* image transition */
+
+.section1 img.first {
+    animation-name: cf3FadeInOut;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-direction: alternate;
+}
+
+@keyframes cf3FadeInOut {
+    0% {
+        opacity: 1;
+    }
+    45% {
+        opacity: 1;
+    }
+    55% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+
+/* searchbutton */
+
+.sear {
+    border-radius: 21px;
+}
+
+.sbtn {
+    border-radius: 9px;
+    background-color: #45fb68;
+    color: black;
+    border-color: black;
+}
+
+
+/* utility */
+
+.fontstyle {
+    font-family: "Changa One", cursive;
 }
