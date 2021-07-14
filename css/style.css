@@ -1,3 +1,7 @@
+body {
+    /* overflow-x: hidden; */
+}
+
 .backg {
     background-color: #ff7e19;
 }
@@ -132,13 +136,70 @@
 
 .sear {
     border-radius: 21px;
+    padding-left: 34px;
 }
 
 .sbtn {
-    border-radius: 9px;
-    background-color: #45fb68;
+    background-color: #fbf745;
     color: black;
     border-color: black;
+    box-shadow: -2px 2px 0px 1px rgb(29, 41, 211);
+    font-family: cursive;
+    font-weight: bold;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+
+.sbtn:hover {
+    background-color: rgb(53, 204, 15);
+    border-radius: 25px;
+}
+
+.search1 {
+    display: flex;
+}
+
+.search1 img {
+    width: 26px;
+    height: 27px;
+    z-index: 2;
+    padding: 3px 3px;
+    margin: 6px -34px;
+}
+
+.navbtn {
+    color: black;
+    filter: brightness(1500%);
+    font-family: "Changa One", cursive;
+}
+
+.navbtn1 {
+    color: rgb(33, 173, 192);
+}
+
+.navbtn:hover {
+    text-decoration: underline overline;
+    text-underline-offset: 3px;
+    color: yellow;
+}
+
+
+/* Section-2 */
+
+.section2 {
+    border: 2px solid black;
+    margin-top: 328px;
+}
+
+.section2>h1 {
+    text-align: center;
+    font-size: 52px;
+}
+
+.section2>p {
+    text-align: center;
+    padding: 19px 347px;
 }
 
 
